@@ -45,14 +45,12 @@ export class AmigosPage implements OnInit {
         text: 'Editar',
         icon: 'share',
         handler: () => {
-          console.log('Share clicked');
         }
       }, {
         text: 'Cancelar',
         icon: 'close',
         role: 'cancel',
         handler: () => {
-          console.log('Cancel clicked');
         }
       }]
     });
